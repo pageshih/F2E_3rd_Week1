@@ -9,14 +9,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
       rel="stylesheet">
-    <link rel="stylesheet" href="./assets/style/all.css">
-    <link
-  rel="stylesheet"
-  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
-/>
+      <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Roboto:wght@500&display=swap');
       </style>
+      
+    <link rel="stylesheet" href="./assets/style/all.css">
+
+
   </head>
 
   <body>
@@ -123,10 +126,8 @@
     <h3 class="mb-4">多久沒有出門走走了呢？</h3>
     <p class="mb-0 eng-title">LET'S GO OUTSIDE</p>
   </div>
-
-
   <!-- activities data -->
-  <ul class="activities-cards">
+  <ul class="activities-cards mb-34">
     <div class="flex-grow-1 d-none d-md-flex ms-56 flex-column justify-content-center align-items-start md-title">
       <h3 class="mb-4 fs-3 lh-base">多久沒有出門走走了呢？</h3>
       <p class="mb-0 eng-title mb-28">LET'S GO OUTSIDE</p>
@@ -235,21 +236,24 @@
         </div>
       </li>
     </div>
-</ul>
+  </ul>
+  <!-- activities data -->
+  <button class="d-block d-md-none action-btn mx-auto">更多FUNNY</button>
 </div>
     <img src="./assets/images/activities-deco-img.png" alt="deco-img" class="d-none d-md-block deco-img">
 </section>
 
 <section class="food">
-  <div class="gray-block"></div>
+  <div class="gray-block d-none d-md-block"></div>
   <div class="d-block d-md-flex justify-content-between align-items-center space">
     <div class="title">
       <h3 class="mb-4">餐飲美食</h3>
       <p class="mb-28 eng-title">TATSTY</p>
-      <button class="d-none d-md-block action-btn">更多美味</button>
+      <button class="d-none d-md-block action-btn mb-40">更多美味</button>
+      <div class="d-none d-md-block swiper-pagination position-relative"></div>
     </div>
   
-  <div class="swiper mySwiper food-card-group">
+  <div class="swiper mySwiper mb-34 food-card-group">
     <div class="swiper-wrapper">
       <!-- food data -->
       <div class="swiper-slide">
@@ -329,7 +333,75 @@
     <div class="d-none d-md-block button-next"><img src="./assets/images/slider-btn-next.svg" alt="next"></div>
   </div>
   <div class="d-none d-md-block button-prev"><img src="./assets/images/slider-btn-before.svg" alt="previous"></div>
-  
+  <button class="d-block d-md-none action-btn mx-auto">更多美味</button>
+</div>
+
+</section>
+
+<section class="hotel">
+  <div class="gray-block"></div>
+  <div class="container">
+    <div class="text-center">
+      <h3 class="mb-4">精選住宿</h3>
+      <p class="eng-title mb-30 mb-md-47">ACCOMODATION</p>
+    </div>
+    <ul class="hotel-card-group">
+      <!-- minimun set -->
+      <li class="card mb-md-24">
+        <a href="#" class="stretched-link"></a>
+          <img src="./assets/images/photo-1562790351-d273a961e0e9.jfif" alt="" class="card-img-top">
+        
+        <div class="card-body">
+          <h5 class="card-title">洛碁大飯店忠孝館</h5>
+          <p class="card-text mb-10 fs-13 text-gray">國際觀光旅館</p>
+          <div class="d-flex justify-content-between">
+            <p class="fs-11">NT$ 1,200<span class="text-gray fs-13 ms-5">起</span></p>
+            <p class="fs-13 text-info">桃園市</p>
+          </div>
+        </div>
+      </li>
+      <li class="card mt-md-24">
+        <a href="#" class="stretched-link"></a>
+          <img src="./assets/images/photo-1562790351-d273a961e0e9.jfif" alt="" class="card-img-top">
+        
+        <div class="card-body">
+          <h5 class="card-title">洛碁大飯店忠孝館</h5>
+          <p class="card-text mb-10 fs-13 text-gray">國際觀光旅館</p>
+          <div class="d-flex justify-content-between">
+            <p class="fs-11">NT$ 1,200<span class="text-gray fs-13 ms-5">起</span></p>
+            <p class="fs-13 text-info">桃園市</p>
+          </div>
+        </div>
+      </li>
+      <!-- minimun set -->
+      <li class="card mb-md-24">
+        <a href="#" class="stretched-link"></a>
+          <img src="./assets/images/photo-1562790351-d273a961e0e9.jfif" alt="" class="card-img-top">
+        
+        <div class="card-body">
+          <h5 class="card-title">洛碁大飯店忠孝館</h5>
+          <p class="card-text mb-10 fs-13 text-gray">國際觀光旅館</p>
+          <div class="d-flex justify-content-between">
+            <p class="fs-11">NT$ 1,200<span class="text-gray fs-13 ms-5">起</span></p>
+            <p class="fs-13 text-info">桃園市</p>
+          </div>
+        </div>
+      </li>
+      <li class="card mt-md-24">
+        <a href="#" class="stretched-link"></a>
+          <img src="./assets/images/photo-1562790351-d273a961e0e9.jfif" alt="" class="card-img-top">
+        
+        <div class="card-body">
+          <h5 class="card-title">洛碁大飯店忠孝館</h5>
+          <p class="card-text mb-10 fs-13 text-gray">國際觀光旅館</p>
+          <div class="d-flex justify-content-between">
+            <p class="fs-11">NT$ 1,200<span class="text-gray fs-13 ms-5">起</span></p>
+            <p class="fs-13 text-info">桃園市</p>
+          </div>
+        </div>
+      </li>
+    </ul>
+    <button class="d-block action-btn mx-auto">更多住宿</button>
 </div>
 </section>
 
