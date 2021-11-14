@@ -1,10 +1,11 @@
-$(function() {
+"use strict";
+
+$(function () {
   console.log('Hello Bootstrap5');
 });
-
 var swiper = new Swiper(".mySwiper", {
   breakpoints: {
-    100:{
+    100: {
       slidesPerView: 1.1,
       spaceBetween: 10
     },
@@ -26,6 +27,7 @@ var swiper = new Swiper(".mySwiper", {
   },
   navigation: {
     nextEl: ".button-next",
-    prevEl: ".button-prev",
-  },
+    prevEl: ".button-prev"
+  }
 });
+//# sourceMappingURL=all.js.map

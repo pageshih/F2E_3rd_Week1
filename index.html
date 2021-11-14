@@ -1,10 +1,60 @@
----
-title: Taiwan Go - 台灣旅遊景點導覽
-layout: ./app/layout.ejs
-engine: ejs
-current: index 
----
-<!-- hero -->
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Taiwan Go - 台灣旅遊景點導覽</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet">
+    <link rel="stylesheet" href="./assets/style/all.css">
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+/>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Roboto:wght@500&display=swap');
+      </style>
+  </head>
+
+  <body>
+    <nav class="navbar bg-white d-flex justify-content-between container-fluid">
+      <h1 class="mb-0 navbar-brand">
+        <a href="./index.html">
+        <img src="./assets/images/LOGO.png" alt="taiwan go logo">
+      </a>
+      </h1>
+      <ul class="nav flex-grow-1 d-none d-md-flex">
+        <li class="nav-item d-flex flex-grow-1 justify-content-center">
+          <a href="#" class="nav-link lh-lg">特色活動</a>
+          <a href="#" class="nav-link lh-lg">美食饗宴</a>
+          <a href="#" class="nav-link lh-lg">精選住宿</a>
+        </li>
+        <li class="search-bar-group">
+          <input type="text" class="search-input fs-10 lh-1" placeholder="搜尋關鍵字..." aria-label="Input group example" aria-describedby="btnGroupAddon">
+          <buton class="btn search-btn" id="btnGroupAddon"><span class="material-icons-outlined">
+            search
+            </span></buton>
+        </li>
+      </ul>
+      <button class="btn bg-white d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#hamburgerMenu" aria-expanded="false" aria-controls="hamburgerMenu"><img src="./assets/images/menu-icon.svg" alt="hamburger menu"></button>
+    </nav>
+    <ul class="collapse bg-white list-group align-items-center" id="hamburgerMenu">
+      <li class="search-bar-group pt-18 pb-18">
+        <input type="text" class="search-input" placeholder="搜尋關鍵字..." aria-label="Input group example" aria-describedby="btnGroupAddon">
+        <buton class="btn search-btn" id="btnGroupAddon"><span class="material-icons-outlined">
+          search
+          </span></buton>
+      </li>
+      <li class="hamburger-dropdown-list text-center"><a class="nav-link" href="#">特色活動</a></li>
+      <li class="hamburger-dropdown-list text-center"><a class="nav-link" href="#">美食饗宴</a></li>
+      <li class="hamburger-dropdown-list text-center"><a class="nav-link" href="#">精選住宿</a></li>
+    </ul>
+    </div>
+
+    <!-- hero -->
 <section class="position-relative hero">
   <img class="hero-img position-absolute top-0" src="./assets/images/photo-1508672019048-805c876b67e2.jfif" alt="hero-img">
 <div class="container">
@@ -282,3 +332,25 @@ current: index
   
 </div>
 </section>
+
+    <footer class="footer">
+      <nav class="navbar flex-column pb-45">
+        <h1 class="navbar-brand me-0 mb-10">
+          <a href="./index.html">
+            <img src="./assets/images/LOGO white.png" alt="Logo"></a>
+          </h1>
+          <ul class="nav">
+            <li class="nav-item"><a href="#" class="nav-link">特色活動</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">美食饗宴</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">精選住宿</a></li>
+          </ul>
+      </nav>
+      <div class="copyright">Week1 - 台灣旅遊景點導覽</div>
+    </footer>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
+    
+  </body>
+
+</html>
