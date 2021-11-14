@@ -6,9 +6,13 @@
 }
 
 .eng-title{
+    font-size: $font-size-base * .625;
     font-weight: 500;
     color: $gray-500;
     margin: 0;
+    @include media-breakpoint-up(md){
+        font-size: $font-size-base * .875;
+    }
 }
 .z-index-1{
     z-index:1;

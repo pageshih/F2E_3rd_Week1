@@ -1,4 +1,12 @@
+.swiper-pagination-bullet{
+    background: var(--swiper-pagination-bullet-inactive-color, $gray-600);
+}
 
+.swiper-pagination-bullet-active{
+    background: var(--swiper-pagination-color, $secondary);
+    width: 30px;
+    border-radius: 50em;
+}
 .button-next{
     position: absolute;
     bottom: 10%;
@@ -53,3 +61,4 @@
         left: 16%;
     }
 }
+
