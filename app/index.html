@@ -1,0 +1,284 @@
+---
+title: Taiwan Go - 台灣旅遊景點導覽
+layout: ./app/layout.ejs
+engine: ejs
+current: index 
+---
+<!-- hero -->
+<section class="position-relative hero">
+  <img class="hero-img position-absolute top-0" src="./assets/images/photo-1508672019048-805c876b67e2.jfif" alt="hero-img">
+<div class="container">
+    <div class="text-white text-shadow-50 mb-28 text-md-center">
+      <h2 class="mb-10">想去哪裡玩？</h2>
+      <p>這裡共有上千個活動及美食等著你去一同體驗</p>
+    </div>
+    <div class="search-bar-lg-group">
+      <input type="text" class="search-lg-input fs-16" placeholder="12/22新北耶誕嘉年華" aria-label="Input group example" aria-describedby="btnGroupAddon">
+      <buton class="btn search-lg-btn" id="btnGroupAddon"><span class="material-icons-outlined align-bottom">
+        search
+        </span>搜尋</buton>
+    </div>
+</div>
+</section>
+
+<section class="choose-city">
+  <div class="city-md-bg">
+  <div class="gray-block"></div>
+  <img src="./assets/images/choose-city-deco-img.png" alt="deco-img" class="deco-img">
+  </div>
+  <div class="container d-md-flex justify-content-xl-center justify-content-md-between align-items-center">
+  <div class="text-center mx-xl-56 z-index-1">
+    <h3 class="mb-4 mb-md-14">縣市快選</h3>
+    <p class="eng-title mb-18">CHOOSE CITIES</p>
+  </div>
+  <ul class="card-group-s ms-xl-56">
+
+    <li class="card-s">
+      <div class="icon-bg">
+      <img src="./assets/images/north of Taiwan icon.svg" alt="北部" class="circle-icon">
+      </div>
+      <a href="#" class="stretched-link">北部</a>
+    </li>
+    <li class="card-s">
+      <div class="icon-bg">
+      <img src="./assets/images/middle of Taiwan icon.svg" alt="中部" class="circle-icon">
+      </div>
+      <a href="#" class="stretched-link">中部</a>
+    </li>
+    <li class="card-s">
+      <div class="icon-bg">
+      <img src="./assets/images/south of Taiwan icon.svg" alt="南部" class="circle-icon">
+      </div>
+      <a href="#" class="stretched-link">南部</a>
+    </li>
+    <li class="card-s">
+      <div class="icon-bg">
+      <img src="./assets/images/east of Taiwan icon.svg" alt="東部" class="circle-icon">
+      </div>
+      <a href="#" class="stretched-link">東部</a>
+    </li>
+    <li class="card-s">
+      <div class="icon-bg">
+      <img src="./assets/images/surrounding islands of Taiwan icon.svg" alt="離島" class="circle-icon">
+      </div>
+      <a href="#" class="stretched-link">離島</a>
+    </li>
+  </ul>
+</div>
+</section>
+
+<section class="activities">
+  <div class="container">
+  <div class="d-md-none text-center mb-30">
+    <h3 class="mb-4">多久沒有出門走走了呢？</h3>
+    <p class="mb-0 eng-title">LET'S GO OUTSIDE</p>
+  </div>
+
+
+  <!-- activities data -->
+  <ul class="activities-cards">
+    <div class="flex-grow-1 d-none d-md-flex ms-56 flex-column justify-content-center align-items-start md-title">
+      <h3 class="mb-4 fs-3 lh-base">多久沒有出門走走了呢？</h3>
+      <p class="mb-0 eng-title mb-28">LET'S GO OUTSIDE</p>
+      <button class="action-btn">更多FUNNY</button>
+    </div>
+      <div class="area-top">
+      <li class="card">
+        <a href="#" class="stretched-link">
+          <img src="./assets/images/photo-1550177205-89d100b75c34.jfif" alt="活動照片" class="card-img-top">
+        </a>
+        <div class="card-body">
+          <h5 class="card-title">2021大溪豆干節</h5>
+          <p class="card-text fs-13 text-gray mb-16">臺北市政府觀光傳播局</p>
+          <div class="d-flex justify-content-between">
+            <div class="d-flex">
+            <p class="badge bg-gray fw-normal">
+              年度
+            </p>
+          </div>
+            <p class="text-info fs-13">桃園市</p>
+          </div>
+        </div>
+      </li>
+      <li class="card">
+        <a href="#" class="stretched-link">
+          <img src="./assets/images/photo-1550177205-89d100b75c34.jfif" alt="活動照片" class="card-img-top">
+        </a>
+        <div class="card-body">
+          <h5 class="card-title">2021大溪豆干節</h5>
+          <p class="card-text fs-13 text-gray mb-16">臺北市政府觀光傳播局</p>
+          <div class="d-flex justify-content-between">
+            <div class="d-flex">
+            <p class="badge bg-gray fw-normal">
+              年度
+            </p>
+          </div>
+            <p class="text-info fs-13">桃園市</p>
+          </div>
+        </div>
+      </li><li class="card">
+        <a href="#" class="stretched-link">
+          <img src="./assets/images/photo-1550177205-89d100b75c34.jfif" alt="活動照片" class="card-img-top">
+        </a>
+        <div class="card-body">
+          <h5 class="card-title">2021大溪豆干節</h5>
+          <p class="card-text fs-13 text-gray mb-16">臺北市政府觀光傳播局</p>
+          <div class="d-flex justify-content-between">
+            <div class="d-flex">
+            <p class="badge bg-gray fw-normal">
+              年度
+            </p>
+          </div>
+            <p class="text-info fs-13">桃園市</p>
+          </div>
+        </div>
+      </li>
+    </div>
+    <div class="area-bottom">
+      <li class="card">
+        <a href="#" class="stretched-link">
+          <img src="./assets/images/photo-1550177205-89d100b75c34.jfif" alt="活動照片" class="card-img-top">
+        </a>
+        <div class="card-body">
+          <h5 class="card-title">2021大溪豆干節</h5>
+          <p class="card-text fs-13 text-gray mb-16">臺北市政府觀光傳播局</p>
+          <div class="d-flex justify-content-between">
+            <div class="d-flex">
+            <p class="badge bg-gray fw-normal">
+              年度
+            </p>
+          </div>
+            <p class="text-info fs-13">桃園市</p>
+          </div>
+        </div>
+      </li><li class="card">
+        <a href="#" class="stretched-link">
+          <img src="./assets/images/photo-1550177205-89d100b75c34.jfif" alt="活動照片" class="card-img-top">
+        </a>
+        <div class="card-body">
+          <h5 class="card-title">2021大溪豆干節</h5>
+          <p class="card-text fs-13 text-gray mb-16">臺北市政府觀光傳播局</p>
+          <div class="d-flex justify-content-between">
+            <div class="d-flex">
+            <p class="badge bg-gray fw-normal">
+              年度
+            </p>
+          </div>
+            <p class="text-info fs-13">桃園市</p>
+          </div>
+        </div>
+      </li><li class="card">
+        <a href="#" class="stretched-link">
+          <img src="./assets/images/photo-1550177205-89d100b75c34.jfif" alt="活動照片" class="card-img-top">
+        </a>
+        <div class="card-body">
+          <h5 class="card-title">2021大溪豆干節</h5>
+          <p class="card-text fs-13 text-gray mb-16">臺北市政府觀光傳播局</p>
+          <div class="d-flex justify-content-between">
+            <div class="d-flex">
+            <p class="badge bg-gray fw-normal">
+              年度
+            </p>
+          </div>
+            <p class="text-info fs-13">桃園市</p>
+          </div>
+        </div>
+      </li>
+    </div>
+</ul>
+</div>
+    <img src="./assets/images/activities-deco-img.png" alt="deco-img" class="d-none d-md-block deco-img">
+</section>
+
+<section class="food">
+  <div class="gray-block"></div>
+  <div class="d-block d-md-flex justify-content-between align-items-center space">
+    <div class="title">
+      <h3 class="mb-4">餐飲美食</h3>
+      <p class="mb-28 eng-title">TATSTY</p>
+      <button class="d-none d-md-block action-btn">更多美味</button>
+    </div>
+  
+  <div class="swiper mySwiper food-card-group">
+    <div class="swiper-wrapper">
+      <!-- food data -->
+      <div class="swiper-slide">
+        <div class="card h-100">
+          <img src="./assets/images/photo-1586511925558-a4c6376fe65f.jfif" alt="food title" class="card-img h-100">
+          <div class="card-img-overlay d-flex justify-content-between align-items-end">
+            <div>
+            <h5 class="text-white">長角96</h5>
+            <p class="text-white fs-13 fe-bold">異國料理</p>
+            </div>
+            <p class="text-white bg-dark badge">新北市</p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="card h-100">
+          <img src="./assets/images/photo-1586511925558-a4c6376fe65f.jfif" alt="food title" class="card-img h-100">
+          <div class="card-img-overlay d-flex justify-content-between align-items-end">
+            <div>
+            <h5 class="text-white">長角96</h5>
+            <p class="text-white fs-13 fe-bold">異國料理</p>
+            </div>
+            <p class="text-white bg-dark badge">新北市</p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="card h-100">
+          <img src="./assets/images/photo-1586511925558-a4c6376fe65f.jfif" alt="food title" class="card-img h-100">
+          <div class="card-img-overlay d-flex justify-content-between align-items-end">
+            <div>
+            <h5 class="text-white">長角96</h5>
+            <p class="text-white fs-13 fe-bold">異國料理</p>
+            </div>
+            <p class="text-white bg-dark badge">新北市</p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="card h-100">
+          <img src="./assets/images/photo-1586511925558-a4c6376fe65f.jfif" alt="food title" class="card-img h-100">
+          <div class="card-img-overlay d-flex justify-content-between align-items-end">
+            <div>
+            <h5 class="text-white">長角96</h5>
+            <p class="text-white fs-13 fe-bold">異國料理</p>
+            </div>
+            <p class="text-white bg-dark badge">新北市</p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="card h-100">
+          <img src="./assets/images/photo-1586511925558-a4c6376fe65f.jfif" alt="food title" class="card-img h-100">
+          <div class="card-img-overlay d-flex justify-content-between align-items-end">
+            <div>
+            <h5 class="text-white">長角96</h5>
+            <p class="text-white fs-13 fe-bold">異國料理</p>
+            </div>
+            <p class="text-white bg-dark badge">新北市</p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="card h-100">
+          <img src="./assets/images/photo-1586511925558-a4c6376fe65f.jfif" alt="food title" class="card-img h-100">
+          <div class="card-img-overlay d-flex justify-content-between align-items-end">
+            <div>
+            <h5 class="text-white">長角96</h5>
+            <p class="text-white fs-13 fe-bold">異國料理</p>
+            </div>
+            <p class="text-white bg-dark badge">新北市</p>
+          </div>
+        </div>
+      </div>
+      <!-- food data -->
+    </div>
+    <div class="d-none d-md-block button-next"><img src="./assets/images/slider-btn-next.svg" alt="next"></div>
+  </div>
+  <div class="d-none d-md-block button-prev"><img src="./assets/images/slider-btn-before.svg" alt="previous"></div>
+  
+</div>
+</section>

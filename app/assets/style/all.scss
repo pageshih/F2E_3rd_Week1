@@ -1,0 +1,14 @@
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "./helpers/variables";
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+@import "./base";
+@import "./helpers/utilities";
+@import "./components/searchBar";
+@import "./components/navigation";
+@import "./components/footer";
+@import "./components/card";
+@import "./components/button";
+@import "./components/swiper-custom";
+
+
+@import "./layout/index";
